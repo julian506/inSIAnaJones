@@ -38,7 +38,7 @@
 <div class="card pt-3" id="inicio">
   <div class="card-body mx-auto">
    <div class="form-group">
-   	<form id="formulario" method="post" action="index.php">
+   	<form id="formulario" method="post" action="indexboots.php">
    		<div class="row">
    			<div class="col">
    				<label for"porcentaje">Ingrese su porcentaje de avance en el SIA</label>
@@ -86,7 +86,7 @@
 			<?php
 				if (empty($_POST))
 				{
-					echo "<img src='/images/fondo.jpg'  border='1' width='344' height='226'>";
+					echo "<img src='/inSIAnaJones/images/fondo.jpg'  border='1' width='344' height='226'>";
 
 				}
 				else{
